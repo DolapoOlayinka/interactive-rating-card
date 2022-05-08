@@ -30,6 +30,15 @@ p {
     padding: 5px; 
 }
 
+.icon-div{
+    display: flex;
+    justify-content: center;
+}
+.icon-ty {
+    
+    padding: 1rem;
+}
+
 .rating-div{
     justify-content: center;
 }
@@ -72,6 +81,29 @@ ul li {
     border: 5px solid hsl(25, 97%, 75%);
     background-color: hsl(25, 97%, 75%);
     color:hsl(216, 12%, 20%)
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.ty-rating-p-div{
+    display: flex;
+    justify-content: center;
+}
+.ty-rating-p {
+    border: 1px solid  hsl(216, 12%, 20%);
+    border-radius: 40px;
+    background-color: hsl(216, 12%, 20%);
+    color: hsl(25, 97%, 53%);
+    opacity: 0.8;
+    padding: 5px;
+    width: 170px;
+    text-align: center;
+}
+.ty-p {
+    text-align: center;
 }
 
 .attribution { 
